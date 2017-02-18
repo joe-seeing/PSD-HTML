@@ -1,0 +1,230 @@
+.text-overflow{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.index-top-tab{
+    position: relative;
+    margin: 16px auto 0;
+    height: 213px;
+    width: 978px;
+    border: 1px solid #dfdfdf;
+}
+.index-tab-btngroup{
+    position: relative;
+    float: left;
+    width: 115px;
+}
+.index-tab-btngroup .btn{
+    position: relative;
+    color: #111;
+    text-align: center;
+    font-size: 18px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    cursor: pointer;
+}
+.index-tab-btngroup .active{
+    font-weight: bold;
+    border-right: none;
+    border-bottom: 4px solid #288bff;
+    height: 67px;
+}
+.index-tab-box{
+    position:relative;
+    float:left;
+    padding-top: 18px;
+    width:863px;
+}
+.index-tab-item{
+    padding-left: 22px;
+    overflow: hidden;
+    display:none;
+}
+.index-tab-box .show{
+    display: block;
+}
+.index-tab-applist{
+    width: 980px;
+    padding-bottom: 14px;
+    border-bottom: 1px dotted #c5c5c5;
+}
+.index-tab-applist .item{
+    display: block;
+    width: 80px;
+    margin-right: 26px;
+    float: left;
+    color: #292929;
+}
+.index-tab-applist img{
+    display: block;
+    width: 80px;
+    height:82px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: none;
+    background: none;
+}
+.index-tab-applist p{
+    margin-top: 10px;
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.index-tab-label{
+    position: relative;
+    padding-top: 14px;
+    width: 820px;
+    border-top: 1px dotted #c5c5c5;
+}
+.index-tab-label .item{
+    position: relative;
+    float: left;
+    display: block;
+    width: 93px;
+    height: 14px;
+    line-height: 14px;
+    border-right:1px solid #c5c5c5 ;
+    font-size: 12px;
+    color: #313131;
+    text-align: center;
+    margin-top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.index-tab-label .inner{
+    position: relative;
+    margin-left: -4px;
+    width: 850px;
+}
+/*新闻主体部分*/
+.index-news{
+    position: relative;
+    margin:20px auto;
+    width: 980px;
+    height: 100px;
+    border-top: 1px solid #dfdfdf;
+}
+.index-news-l{
+    float: left;
+    width: 414px;
+    padding-top: 20px;
+}
+.index-news-r{
+    float: right;
+    width: 530px;
+}
+.index-news-top h2{
+    position: relative;
+    color: #555;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top:22px;
+    margin-bottom: 5px;
+}
+.index-news-top .content{
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+}
+.index-news-icon{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 67px;
+    height: 64px;
+    background: url("../images/news-icon.png");
+}
+.index-news-list{
+   margin-top: 10px;
+    border-top: 1px dotted #dfdfdf;
+    padding-top: 5px;
+    padding-left: 4px;
+}
+.index-news-list .news-item{
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    display: block;
+}
+.index-news-list .news-item .label{
+    position: absolute;
+    left:0;
+    color: #288bff;
+    padding-right: 10px;
+}
+.index-news-list .news-item .content{
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.index-news-list .news-item .date{
+    position: absolute;
+    right:0;
+    color: #999;
+    padding-right: 10px;
+    top:0;
+}
+/*焦点图*/
+.index-focus-box{
+    position: relative;
+    height: 264px;
+}
+.index-focus-list{
+
+}
+.index-focus-list li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 530px;
+    height: 264px;
+}
+.index-focus-list a{
+    display: block;
+
+}
+.index-focus-list img{
+    display: block;
+}
+.index-focus-footer {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height: 40px;
+    background: rgba(0,0,0,0.8);
+}
+.index-focus-footer .tips{
+    display: block;
+    width: 70%;
+    padding-left: 12px;
+    color: #fff;
+    line-height: 40px;
+}
+.index-focus-footer .btn-group{
+    position: absolute;
+    top: 18px;;
+    right: 6px;
+}
+.index-focus-footer .btn-group li{
+    float: left;
+    width: 26px;
+    height: 4px;
+    background-color: #fff;
+    margin-right: 8px;
+}
+.index-focus-footer .btn-group .active, .index-focus-footer .btn-group li:hover{
+    background-color: #33a5f5;
+}
