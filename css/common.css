@@ -109,3 +109,8 @@
     border-left: 1px solid #dfdfdf;
 
 }
+.text-overflow{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

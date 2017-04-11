@@ -3,7 +3,7 @@
     margin: 0;
 }
 body,html{
-    font-family:"Microsoft YaHei";
+    font-family:"Microsoft YaHei"
 }
 a{
     text-decoration: none;
@@ -19,7 +19,7 @@ li,ul{
     display: block;
 }
 .clearfix{
-    display: inline-table;
+    display: inline-block;
 }
 img{
     border:none;
